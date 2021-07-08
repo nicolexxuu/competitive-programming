@@ -7,7 +7,7 @@ using namespace std;
 vector<int> adj[MX];
 int timer = 1, tin[MX], euler[MX*2];
 int layer = 1, depth[MX];
-int st[MX*8];
+int st[MX*8]; // not memory-efficient implementation
 
 
 void dfs(int node, int parent) {
@@ -23,10 +23,10 @@ void dfs(int node, int parent) {
 	layer--;
 }
 
-int mn_tin(int a, int b) {
+int mn_depth(int a, int b) { // tin works too
 	if(a == -1) return b;
 	if(b == -1) return a;
-	return (tin[a] < tin[b]) ? a : b; 
+	return (depth[a] < depth[b]) ? a : b; 
 }
 
 void build(int node, int l, int r) {

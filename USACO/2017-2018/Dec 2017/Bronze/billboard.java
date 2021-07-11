@@ -25,8 +25,8 @@ public class billboard2 {
     }
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\javaprojects\\usaco\\billboard_bronze_dec17.zip\\1.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("C:\\javaprojects\\usaco\\billboard_bronze_dec17.zip\\1-test.out")));
+        BufferedReader br = new BufferedReader(new FileReader("billboard.in"));
+        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("billboard.out")));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
         int x1 = Integer.parseInt(st.nextToken());

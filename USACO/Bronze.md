@@ -92,7 +92,7 @@
 | [Open 2017](http://usaco.org/index.php?page=open17results) | lostcow | [Java][lostcow.java] |
 |                                                            | cownomic | [Java][cownomic.java] |
 |                                                            | art | [Java][art.java] |
-| [Feb 2017](http://usaco.org/index.php?page=feb17results)   | crossroad | |
+| [Feb 2017](http://usaco.org/index.php?page=feb17results)   | crossroad | [Java][crossroad.java] |
 |                                                            | circlecross | [Java][circlecross.java] |
 |                                                            | cowqueue | [Java][cowqueue.java] |
 | [Jan 2017](http://usaco.org/index.php?page=jan17results)   | notlast | [Java][notlast.java] | 
@@ -105,6 +105,7 @@
 [lostcow.java]: 2016-2017/Open%202017/Bronze/lostcow.java
 [cownomic.java]: 2016-2017/Open%202017/Bronze/cownomic.java
 [art.java]: 2016-2017/Open%202017/Bronze/art.java
+[crossroad.java]: 2016-2017/Feb%202017/bronze/crossroad.java
 [circlecross.java]: 2016-2017/Feb%202017/bronze/circlecross.java
 [cowqueue.java]: 2016-2017/Feb%202017/bronze/cowqueue.java
 [notlast.java]: 2016-2017/Jan%202017/Bronze/notlast.java

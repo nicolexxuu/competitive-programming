@@ -2,11 +2,11 @@
 
 #include <iostream>
 
-#define MAXN 10000
+#define MAXN 10003
 
 using namespace std;
 
-int BIT[MAXN]; 
+int BIT[MAXN]; // 1-indexed
 
 // update prefix sums of an array
 // O(N log N)

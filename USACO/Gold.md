@@ -57,7 +57,7 @@
 |                                                            | dishes | [Java][dishes.java] |
 |                                                            | paintbarn | [Java][paintbarn.java] | DP/Sweep Line |
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | poetry | [Java][poetry.java] |
-|                                                            | sleepy | [Java][sleepy.java] |
+|                                                            | sleepy | [cpp][sleepy.cpp] [Java][sleepy.java] |
 |                                                            | shortcut | [Java][shortcut.java] | Shortest Path |
 | [Dec 2018](http://usaco.org/index.php?page=dec18results)   | dining | [Java][dining.java] |
 |                                                            | cowpatibility | [Java][cowpatibility.java] | Inclusion-Exclusion Principle/Hashing |
@@ -68,6 +68,7 @@
 [dishes.java]: 2018-2019/Feb%202019/Gold/dishes.java
 [paintbarn.java]: 2018-2019/Feb%202019/Gold/paintbarn.java
 [poetry.java]: 2018-2019/Jan%202019/Gold/poetry.java
+[sleepy.cpp]: 2018-2019/Jan%202019/Gold/sleepy.cpp
 [sleepy.java]: 2018-2019/Jan%202019/Gold/sleepy.java
 [shortcut.java]: 2018-2019/Jan%202019/Gold/shortcut.java
 [dining.java]: 2018-2019/Dec%202018/Gold/dining.java

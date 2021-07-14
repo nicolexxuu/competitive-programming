@@ -105,9 +105,9 @@
 [lostcow.java]: 2016-2017/Open%202017/Bronze/lostcow.java
 [cownomic.java]: 2016-2017/Open%202017/Bronze/cownomic.java
 [art.java]: 2016-2017/Open%202017/Bronze/art.java
-[crossroad.java]: 2016-2017/Feb%202017/bronze/crossroad.java
-[circlecross.java]: 2016-2017/Feb%202017/bronze/circlecross.java
-[cowqueue.java]: 2016-2017/Feb%202017/bronze/cowqueue.java
+[crossroad.java]: 2016-2017/Feb%202017/Bronze/crossroad.java
+[circlecross.java]: 2016-2017/Feb%202017/Bronze/circlecross.java
+[cowqueue.java]: 2016-2017/Feb%202017/Bronze/cowqueue.java
 [notlast.java]: 2016-2017/Jan%202017/Bronze/notlast.java
 [hps.java]: 2016-2017/Jan%202017/Bronze/hps.java
 [cowtip.java]: 2016-2017/Jan%202017/Bronze/cowtip.java

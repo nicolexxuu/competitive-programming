@@ -1,4 +1,4 @@
-// Segment Tree (Range Minimum) Lazy Propagation Implementation
+// Segment Tree (Range Maximum) Lazy Propagation Implementation
 
 #include <bits/stdc++.h>
 #define ll long long
@@ -22,7 +22,7 @@ struct SegTree {
         memset(lazy, 0, 2 * sz * sizeof(ll));
 		
 		for(int i = 0; i < N; i++) tree[sz + i] = arr[i]; // original values
-		for(int i = sz - 1; i > 0; i--) tree[i] = min(tree[i * 2], tree[i * 2 + 1]); // calculate parent node
+		for(int i = sz - 1; i > 0; i--) tree[i] = max(tree[i * 2], tree[i * 2 + 1]); // calculate parent node
 	}
 	
 	// lazy propagation to children
@@ -54,7 +54,7 @@ struct SegTree {
 		update(2 * node, s, mid, lo, hi, x); 
 		update(2 * node + 1, mid, e, lo, hi, x);
 		
-		tree[node] = min(tree[2 * node], tree[2 * node + 1]); // update root
+		tree[node] = max(tree[2 * node], tree[2 * node + 1]); // update root
 	}
 	
 	// helper function
@@ -62,16 +62,16 @@ struct SegTree {
 		update(1, 0, sz, lo, hi, x);
 	}
 	
-	// get min element value within range [lo, hi)
+	// get max element value within range [lo, hi)
 	// O(log N)
 	ll query(int node, int s, int e, int lo, int hi) {
-		if(e <= lo || s >= hi) return LONG_MAX; // out of range
+		if(e <= lo || s >= hi) return LONG_MIN; // out of range
 		if(s >= lo && e <= hi) return tree[node]; // completely contained
 		
 		
 		int mid = (s + e) >> 1;
 		prop(node); // lazy propagation
-		return min(query(node * 2, s, mid, lo, hi), query(node * 2 + 1, mid, e, lo, hi)); // return final result
+		return max(query(node * 2, s, mid, lo, hi), query(node * 2 + 1, mid, e, lo, hi)); // return final result
 	}
 	
 	// helper function

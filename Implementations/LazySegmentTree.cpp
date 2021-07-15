@@ -19,7 +19,7 @@ struct SegTree {
 		lazy = new ll[sz * 2];
 		
 		memset(sums, 0, 2 * sz * sizeof(ll));
-        memset(lazy, 0, 2 * sz * sizeof(ll));
+        	memset(lazy, 0, 2 * sz * sizeof(ll));
 		
 		for(int i = 0; i < N; i++) sums[sz + i] = arr[i]; // original values
 		for(int i = sz - 1; i > 0; i--) sums[i] = sums[i * 2] + sums[i * 2 + 1]; // calculate parent node

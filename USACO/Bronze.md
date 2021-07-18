@@ -4,7 +4,7 @@
 | [Open 2021](http://usaco.org/index.php?page=open20results) |  | |  
 |                                                            |  | |
 |                                                            |  | |
-| [Feb 2021](http:s//usaco.org/index.php?page=feb20results)   |  | |
+| [Feb 2021](http:s//usaco.org/index.php?page=feb20results)  |  | |
 |                                                            |  | |
 |                                                            |  | |
 | [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | |
@@ -25,13 +25,14 @@
 | [Feb 2020](http://usaco.org/index.php?page=feb20results)   | triangles | |
 |                                                            | breedflip | |
 |                                                            | swap | |
-| [Jan 2020](http://usaco.org/index.php?page=jan20results)   | word | |
+| [Jan 2020](http://usaco.org/index.php?page=jan20results)   | word | [Java][word.java] |
 |                                                            | photo | |
 |                                                            | race |
 | [Dec 2019](http://usaco.org/index.php?page=dec19results)   | gymnastics | [Java][gymnastics.java] |
 |                                                            | whereami | [Java][whereami.java] | 
 |                                                            | lineup | |
 
+[word.java]: 2019-2020/Jan%202020/Bronze/word.java
 [gymnastics.java]: 2019-2020/Dec%202019/Bronze/gymnastics.java
 [whereami.java]: 2019-2020/Dec%202019/Bronze/whereami.java
 
@@ -41,10 +42,10 @@
 | [Open 2019](http://usaco.org/index.php?page=open19results) | buckets | [Java][buckets.java] |
 |                                                            | factory | [Java][factory.java] | 
 |                                                            | evolution | |
-| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | |
+| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | [Java][herding.java] |
 |                                                            | revegetate | |
 |                                                            | traffic | [Java][traffic.java] | 
-| [Jan 2019](http://usaco.org/index.php?page=jan19results)   | shell | |
+| [Jan 2019](http://usaco.org/index.php?page=jan19results)   | shell | [Java][shell.java] |
 |                                                            | sleepy | [Java][sleepy.java] |
 |                                                            | guess | | 
 | [Dec 2018](http://usaco.org/index.php?page=dec18results)   | mixmilk | [Java][mixmilk.java] |
@@ -53,7 +54,9 @@
 
 [buckets.java]: 2018-2019/Open%202019/Bronze/buckets.java
 [factory.java]: 2018-2019/Open%202019/Bronze/factory.java
+[herding.java]: 2018-2019/Feb%202019/Bronze/herding.java
 [traffic.java]: 2018-2019/Feb%202019/Bronze/traffic.java
+[shell.java]: 2018-2019/Jan%202019/Bronze/shell.java
 [sleepy.java]: 2018-2019/Jan%202019/Bronze/sleepy.java
 [mixmilk.java]: 2018-2019/Dec%202018/Bronze/mixmilk.java
 [blist.java]: 2018-2019/Dec%202018/Bronze/blist.java
@@ -122,10 +125,10 @@
 | [Open 2016](http://usaco.org/index.php?page=open16results) | diamond | [Java][diamond.java] | 
 |                                                            | bcs | [Java][bcs.java] | 
 |                                                            | reduce | [Java][reduce.java] |
-| [Feb 2016](http://usaco.org/index.php?page=feb16results)   | pails | | 
+| [Feb 2016](http://usaco.org/index.php?page=feb16results)   | pails | [Java][pails.java] | 
 |                                                            | cbarn | [Java][cbarn.java] |
 |                                                            | balancing | [Java][balancing.java] |
-| [Jan 2016](http://usaco.org/index.php?page=jan16results)   | promote | 
+| [Jan 2016](http://usaco.org/index.php?page=jan16results)   | promote | [Java][promote.java] |
 |                                                            | angry | [Java][angry.java] |
 |                                                            | mowing | [Java][mowing.java] |
 | [Dec 2015](http://usaco.org/index.php?page=dec15results)   | badmilk | [Java][badmilk.java] |
@@ -135,8 +138,10 @@
 [diamond.java]: 2015-2016/Open%202016/Bronze/diamond.java
 [bcs.java]: 2015-2016/Open%202016/Bronze/bcs.java
 [reduce.java]: 2015-2016/Open%202016/Bronze/reduce.java
+[pails.java]: 2015-2016/Feb%202016/Bronze/pails.java
 [cbarn.java]: 2015-2016/Feb%202016/Bronze/cbarn.java
 [balancing.java]: 2015-2016/Feb%202016/Bronze/balancing.java
+[promote.java]: 2015-2016/Jan%202016/Bronze/promote.java
 [angry.java]: 2015-2016/Jan%202016/Bronze/angry.java
 [mowing.java]: 2015-2016/Jan%202016/Bronze/mowing.java
 [badmilk.java]: 2015-2016/Dec%202015/Bronze/badmilk.java

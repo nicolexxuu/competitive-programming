@@ -1,6 +1,6 @@
 # Bronze
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
 | [Open 2021](http://usaco.org/index.php?page=open20results) |  | |  
 |                                                            |  | |
 |                                                            |  | |
@@ -11,13 +11,14 @@
 |                                                            | Even More Odd Photos | | 
 |                                                            | Just Stalling | | 
 | [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Do You Know Your ABCs? | |
-|                                                            | Daisy Chains | |
+|                                                            | Daisy Chains | [Java][daisy.java] |
 |                                                            | Stuck in a Rut | |
 
+[daisy.java]: 2020-2021/Dec%202020/Bronze/daisy.java
 
 
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
 | [Open 2020](http://usaco.org/index.php?page=open20results) | socdist1 | |
 |                                                            | socdist2 | |
 |                                                            | tracing | |
@@ -35,8 +36,8 @@
 [whereami.java]: 2019-2020/Dec%202019/Bronze/whereami.java
 
 
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
 | [Open 2019](http://usaco.org/index.php?page=open19results) | buckets | [Java][buckets.java] |
 |                                                            | factory | [Java][factory.java] | 
 |                                                            | evolution | |
@@ -59,8 +60,8 @@
 [backforth.java]: 2018-2019/Dec%202018/Bronze/backforth.java
 
 
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
 | [Open 2018](http://usaco.org/index.php?page=open18results) | tttt | [Java][tttt.java] |
 |                                                            | milkorder | | 
 |                                                            | family | |
@@ -87,8 +88,8 @@
 [measurement.java]: 2017-2018/Dec%202017/Bronze/measurement.java
 
 
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
 | [Open 2017](http://usaco.org/index.php?page=open17results) | lostcow | [Java][lostcow.java] |
 |                                                            | cownomic | [Java][cownomic.java] |
 |                                                            | art | [Java][art.java] |
@@ -116,9 +117,9 @@
 [cowsignal.java]: 2016-2017/Dec%202016/Bronze/cowsignal.java
 
 
-| Contest                                                    | Problem | Implementation | Topic |
-|------------------------------------------------------------|---------|----------------|-------|
-| [Open 2016](http://usaco.org/index.php?page=open16results) | diamond | | 
+| Contest                                                    | Problem | Implementation |
+|------------------------------------------------------------|---------|----------------|
+| [Open 2016](http://usaco.org/index.php?page=open16results) | diamond | [Java][diamond.java] | 
 |                                                            | bcs | [Java][bcs.java] | 
 |                                                            | reduce | [Java][reduce.java] |
 | [Feb 2016](http://usaco.org/index.php?page=feb16results)   | pails | | 
@@ -131,6 +132,7 @@
 |                                                            | paint | [Java][paint.java] |
 |                                                            | speeding | [Java][speeding.java] | 
 
+[diamond.java]: 2015-2016/Open%202016/Bronze/diamond.java
 [bcs.java]: 2015-2016/Open%202016/Bronze/bcs.java
 [reduce.java]: 2015-2016/Open%202016/Bronze/reduce.java
 [cbarn.java]: 2015-2016/Feb%202016/Bronze/cbarn.java

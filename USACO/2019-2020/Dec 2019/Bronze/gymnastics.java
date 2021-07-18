@@ -20,7 +20,7 @@ public class gymnastics {
 		for(int c1 = 0; c1 < N; c1++) {
 			for(int c2 = 0; c2 < N; c2++) {
 				if(c1 == c2) continue;
-				//c1 has to be ahead of c2
+				// c1 has to be ahead of c2
 				boolean good = true;
 				for(int i = 0; i < K; i++) {
 					for(int j = 0; j < N; j++) {

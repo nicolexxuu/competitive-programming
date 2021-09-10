@@ -96,27 +96,32 @@
 | [Open 2017](http://usaco.org/index.php?page=open17results) | lostcow | [Java][lostcow.java] |
 |                                                            | cownomic | [Java][cownomic.java] |
 |                                                            | art | [Java][art.java] |
-| [Feb 2017](http://usaco.org/index.php?page=feb17results)   | crossroad | [Java][crossroad.java] |
+| [Feb 2017](http://usaco.org/index.php?page=feb17results)   | crossroad | [cpp][crossroad.cpp] [Java][crossroad.java] |
 |                                                            | circlecross | [Java][circlecross.java] |
 |                                                            | cowqueue | [Java][cowqueue.java] |
 | [Jan 2017](http://usaco.org/index.php?page=jan17results)   | notlast | [Java][notlast.java] | 
-|                                                            | hps | [Java][hps.java] | 
+|                                                            | hps | [cpp][hps.cpp] [Java][hps.java] | 
 |                                                            | cowtip | [Java][cowtip.java] |
-| [Dec 2016](http://usaco.org/index.php?page=dec16results)   | square | [Java][square.java] |
-|                                                            | blocks | [Java][blocks.java] | 
-|                                                            | cowsignal | [Java][cowsignal.java] |
+| [Dec 2016](http://usaco.org/index.php?page=dec16results)   | square | [cpp][square.cpp] [Java][square.java] |
+|                                                            | blocks | [cpp][blocks.cpp] [Java][blocks.java] | 
+|                                                            | cowsignal | [cpp][cowsignal.cpp] [Java][cowsignal.java] |
 
 [lostcow.java]: 2016-2017/Open%202017/Bronze/lostcow.java
 [cownomic.java]: 2016-2017/Open%202017/Bronze/cownomic.java
 [art.java]: 2016-2017/Open%202017/Bronze/art.java
+[crossroad.cpp]: 2016-2017/Feb%202017/Bronze/crossroad.cpp
 [crossroad.java]: 2016-2017/Feb%202017/Bronze/crossroad.java
 [circlecross.java]: 2016-2017/Feb%202017/Bronze/circlecross.java
 [cowqueue.java]: 2016-2017/Feb%202017/Bronze/cowqueue.java
 [notlast.java]: 2016-2017/Jan%202017/Bronze/notlast.java
+[hps.cpp]: 2016-2017/Jan%202017/Bronze/hps.cpp
 [hps.java]: 2016-2017/Jan%202017/Bronze/hps.java
 [cowtip.java]: 2016-2017/Jan%202017/Bronze/cowtip.java
+[square.cpp]: 2016-2017/Dec%202016/Bronze/square.cpp
 [square.java]: 2016-2017/Dec%202016/Bronze/square.java
+[blocks.cpp]: 2016-2017/Dec%202016/Bronze/blocks.cpp
 [blocks.java]: 2016-2017/Dec%202016/Bronze/blocks.java
+[cowsignal.cpp]: 2016-2017/Dec%202016/Bronze/cowsignal.cpp
 [cowsignal.java]: 2016-2017/Dec%202016/Bronze/cowsignal.java
 
 

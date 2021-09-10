@@ -4,8 +4,8 @@ import java.io.*;
 class teleport {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader br = new BufferedReader(new FileReader("C:\\javaprojects\\usaco\\Bronze_2018_02_P1_Data\\10.in"));
-        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("C:\\javaprojects\\usaco\\Bronze_2018_02_P1_Data\\10test.out")));
+        BufferedReader br = new BufferedReader(new FileReader("teleport.in"));
+        PrintWriter pw = new PrintWriter(new BufferedWriter(new FileWriter("teleport.out")));
         StringTokenizer st = new StringTokenizer(br.readLine()); //reads one line
 
         //to read an int:

@@ -2,6 +2,24 @@
 
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
+| [Open 2021](http://usaco.org/index.php?page=open21results) | Maze Tac Toe |  |
+|                                                            | Do You Know Your ABCs? |  |
+|                                                            | Acowdemia |  |
+| [Feb 2021](http://usaco.org/index.php?page=feb21results)   | Comfortable Cows |  |
+|                                                            | Year of the Cow |
+|                                                            | Just Green Enough |  |
+| [Jan 2021](http://usaco.org/index.php?page=jan21results)   | Dance Mooves | [Java][dancemooves.java] |
+|                                                            | No Time to Paint | |
+|                                                            | Spaced Out |  |
+| [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Cowntagion |  |
+|                                                            | Rectangular Pasture |
+|                                                            | Stuck in a Rut |  |
+
+[dancemooves.java]: 2020-2021/Jan%202021/Silver/dancemooves.java
+
+
+| Contest                                                    | Problem | Implementation | Topic |
+|------------------------------------------------------------|---------|----------------|-------|
 | [Open 2020](http://usaco.org/index.php?page=open20results) | socdist | [Java][socdist.java] |
 |                                                            | cereal | [Java][cereal.java] |
 |                                                            | moop | [Java][moop.java] |
@@ -30,7 +48,7 @@
 | [Open 2019](http://usaco.org/index.php?page=open19results) | leftout | 
 |                                                            | cowjump |
 |                                                            | fenceplan |
-| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | [Java][herding.java] |
+| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | [cpp][herding.cpp] [Java][herding.java] |
 |                                                            | paintbarn | 
 |                                                            | revegetate |
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | planting |
@@ -40,6 +58,7 @@
 |                                                            | convention2 | [Java][convention2.java] |
 |                                                            | mooyomooyo | [Java][mooyomooyo.java] |
 
+[herding.cpp]: 2018-2019/Feb%202019/Silver/herding.cpp
 [herding.java]: 2018-2019/Feb%202019/Silver/herding.java
 [convention.java]: 2018-2019/Dec%202018/Silver/convention.java
 [convention2.java]: 2018-2019/Dec%202018/Silver/convention2.java

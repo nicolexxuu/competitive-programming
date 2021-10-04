@@ -1,19 +1,20 @@
 # Bronze
 | Contest                                                    | Problem | Implementation |
 |------------------------------------------------------------|---------|----------------|
-| [Open 2021](http://usaco.org/index.php?page=open20results) |  | |  
-|                                                            |  | |
-|                                                            |  | |
-| [Feb 2021](http:s//usaco.org/index.php?page=feb20results)  |  | |
-|                                                            |  | |
-|                                                            |  | |
+| [Open 2021](http://usaco.org/index.php?page=open20results) | Acowdemia I | |  
+|                                                            | Acowdemia II | |
+|                                                            | Acowdemia III | |
+| [Feb 2021](http:s//usaco.org/index.php?page=feb20results)  | Year of the Cow | |
+|                                                            | Comfortable Cows | |
+|                                                            | Clockwise Fence | |
 | [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | |
 |                                                            | Even More Odd Photos | | 
 |                                                            | Just Stalling | | 
-| [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Do You Know Your ABCs? | |
+| [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Do You Know Your ABCs? | [cpp][abcs.cpp] |
 |                                                            | Daisy Chains | [Java][daisy.java] |
 |                                                            | Stuck in a Rut | |
 
+[abcs.cpp]: 2020-2021/Dec%202020/Bronze/abcs.cpp
 [daisy.java]: 2020-2021/Dec%202020/Bronze/daisy.java
 
 
@@ -30,34 +31,40 @@
 |                                                            | race |
 | [Dec 2019](http://usaco.org/index.php?page=dec19results)   | gymnastics | [Java][gymnastics.java] |
 |                                                            | whereami | [Java][whereami.java] | 
-|                                                            | lineup | |
+|                                                            | lineup | [cpp][lineup.cpp] [Java][lineup.java] |
 
 [word.java]: 2019-2020/Jan%202020/Bronze/word.java
 [gymnastics.java]: 2019-2020/Dec%202019/Bronze/gymnastics.java
 [whereami.java]: 2019-2020/Dec%202019/Bronze/whereami.java
+[lineup.cpp]: 2019-2020/Dec%202019/Bronze/lineup.cpp
+[lineup.java]: 2019-2020/Dec%202019/Bronze/lineup.java
 
 
 | Contest                                                    | Problem | Implementation |
 |------------------------------------------------------------|---------|----------------|
 | [Open 2019](http://usaco.org/index.php?page=open19results) | buckets | [Java][buckets.java] |
 |                                                            | factory | [Java][factory.java] | 
-|                                                            | evolution | |
+|                                                            | evolution | [cpp][evolution.java] [Java][evolution.java] |
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | [Java][herding.java] |
 |                                                            | revegetate | |
 |                                                            | traffic | [Java][traffic.java] | 
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | shell | [Java][shell.java] |
 |                                                            | sleepy | [Java][sleepy.java] |
-|                                                            | guess | | 
+|                                                            | guess | [cpp][guess.cpp] [Java][guess.java] | 
 | [Dec 2018](http://usaco.org/index.php?page=dec18results)   | mixmilk | [Java][mixmilk.java] |
 |                                                            | blist | [Java][blist.java] | 
 |                                                            | backforth | [Java][backforth.java] |
 
 [buckets.java]: 2018-2019/Open%202019/Bronze/buckets.java
 [factory.java]: 2018-2019/Open%202019/Bronze/factory.java
+[evolution.cpp]: 2018-2019/Open%202019/Bronze/evolution.cpp
+[evolution.java]: 2018-2019/Open%202019/Bronze/evolution.java
 [herding.java]: 2018-2019/Feb%202019/Bronze/herding.java
 [traffic.java]: 2018-2019/Feb%202019/Bronze/traffic.java
 [shell.java]: 2018-2019/Jan%202019/Bronze/shell.java
 [sleepy.java]: 2018-2019/Jan%202019/Bronze/sleepy.java
+[guess.cpp]: 2018-2019/Jan%202019/Bronze/guess.cpp
+[guess.java]: 2018-2019/Jan%202019/Bronze/guess.java
 [mixmilk.java]: 2018-2019/Dec%202018/Bronze/mixmilk.java
 [blist.java]: 2018-2019/Dec%202018/Bronze/blist.java
 [backforth.java]: 2018-2019/Dec%202018/Bronze/backforth.java

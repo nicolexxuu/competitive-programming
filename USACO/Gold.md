@@ -1,13 +1,13 @@
 # Gold
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2021](http://usaco.org/index.php?page=open20results) |  |  |  
-|                                                            |  |
-|                                                            |  |
-| [Feb 2021](http://usaco.org/index.php?page=feb20results)   |  |  
+| [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John |  |  
+|                                                            | Portals |
+|                                                            | Permutation |
+| [Feb 2021](http://usaco.org/index.php?page=feb20results)   | Stone Game |  
 |                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
-|                                                            |  |
-| [Jan 2021](http://usaco.org/index.php?page=jan20results)   |  | |
+|                                                            | Count the Cows |
+| [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | |
 |                                                            | Telephone | [cpp][telephone.cpp] | Shortest Path |
 |                                                            | Dance Mooves | [Java][dancemooves.java] | 
 | [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Replication | [Java][replication.java] | BFS |

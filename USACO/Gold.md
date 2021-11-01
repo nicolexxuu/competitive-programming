@@ -2,7 +2,7 @@
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John |  |  
-|                                                            | Portals |
+|                                                            | Portals | [Java][portals.java] | MST |
 |                                                            | Permutation |
 | [Feb 2021](http://usaco.org/index.php?page=feb20results)   | Stone Game |  
 |                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
@@ -14,6 +14,7 @@
 |                                                            | Bovine Genetics | [Java][bovgenetics.java] | DP |
 |                                                            | Square Pasture | TODO |
 
+[portals.java]: 2020-2021/Open%202021/Gold/portals.java
 [art3.cpp]: 2020-2021/Feb%202021/Gold/art3.cpp
 [telephone.cpp]: 2020-2021/Jan%202021/Gold/telephone.cpp
 [dancemooves.java]: 2020-2021/Jan%202021/Gold/dancemooves.java
@@ -84,7 +85,7 @@
 |                                                            | talent | [Java][talent.java] | DP |
 | [Feb 2018](http://usaco.org/index.php?page=feb18results)   | snowboots | [cpp][snowboots.cpp] [Java][snowboots.java] |
 |                                                            | dirtraverse | 
-|                                                            | taming | [Java][taming.java] | DP |
+|                                                            | taming | [cpp][taming.java] [Java][taming.java] | DP |
 | [Jan 2018](http://usaco.org/index.php?page=jan18results)   | mootube | [Java][mootube.java] | DSU |
 |                                                            | atlarge | 
 |                                                            | spainting | [Java][spainting.java] |
@@ -96,6 +97,7 @@
 [talent.java]: 2017-2018/Open%202018/Gold/talent.java
 [snowboots.cpp]: 2017-2018/Feb%202018/Gold/snowboots.cpp
 [snowboots.java]: 2017-2018/Feb%202018/Gold/snowboots.java
+[taming.cpp]: 2017-2018/Feb%202018/Gold/taming.cpp
 [taming.java]: 2017-2018/Feb%202018/Gold/taming.java
 [mootube.java]: 2017-2018/Jan%202018/Gold/mootube.java
 [spainting.java]: 2017-2018/Jan%202018/Gold/spainting.java

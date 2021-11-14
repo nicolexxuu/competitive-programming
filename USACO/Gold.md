@@ -1,7 +1,7 @@
 # Gold
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John |  |  
+| [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John | [cpp][united.cpp] | BIT | 
 |                                                            | Portals | [Java][portals.java] | MST |
 |                                                            | Permutation |
 | [Feb 2021](http://usaco.org/index.php?page=feb20results)   | Stone Game |  
@@ -14,6 +14,7 @@
 |                                                            | Bovine Genetics | [Java][bovgenetics.java] | DP |
 |                                                            | Square Pasture | TODO |
 
+[united.cpp]: 2020-2021/Open%202021/Gold/united.cpp
 [portals.java]: 2020-2021/Open%202021/Gold/portals.java
 [art3.cpp]: 2020-2021/Feb%202021/Gold/art3.cpp
 [telephone.cpp]: 2020-2021/Jan%202021/Gold/telephone.cpp

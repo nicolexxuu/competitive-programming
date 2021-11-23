@@ -10,11 +10,12 @@
 | [Jan 2015](http://usaco.org/index.php?page=jan15results)    | cowrect |
 |                                                             | movie | 
 |                                                             | grass |
-| [Dec 2014](http://usaco.org/index.php?page=dec14results)    | guard |
+| [Dec 2014](http://usaco.org/index.php?page=dec14results)    | guard | [cpp][guard.cpp]
 |                                                             | marathon | 
 |                                                             | cowjog |
 
 [palpath.cpp]: 2014-2015/Open%202015/Gold/palpath.cpp
+[guard.cpp]: 2014-2015/Dec%202014/Gold/guard.cpp
 
 
 | Contest                                                     | Problem | Implementation | Topic |

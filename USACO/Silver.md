@@ -11,11 +11,12 @@
 | [Jan 2021](http://usaco.org/index.php?page=jan21results)   | Dance Mooves | [Java][dancemooves.java] |
 |                                                            | No Time to Paint | |
 |                                                            | Spaced Out |  |
-| [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Cowntagion |  |
+| [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Cowntagion | [cpp][cowntagion.cpp] |
 |                                                            | Rectangular Pasture |
 |                                                            | Stuck in a Rut |  |
 
 [dancemooves.java]: 2020-2021/Jan%202021/Silver/dancemooves.java
+[downtagion.cpp]: 2020-2021/Dec%202020/Silver/cowntagion.cpp
 
 
 | Contest                                                    | Problem | Implementation | Topic |

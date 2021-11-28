@@ -7,7 +7,7 @@
 | [Feb 2021](http://usaco.org/index.php?page=feb20results)   | Stone Game |  
 |                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
 |                                                            | Count the Cows |
-| [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | |
+| [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | [cpp][uddered.cpp] [Java][uddered.java] | Bitmask DP |
 |                                                            | Telephone | [cpp][telephone.cpp] | Shortest Path |
 |                                                            | Dance Mooves | [Java][dancemooves.java] | 
 | [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Replication | [Java][replication.java] | BFS |
@@ -17,6 +17,8 @@
 [united.cpp]: 2020-2021/Open%202021/Gold/united.cpp
 [portals.java]: 2020-2021/Open%202021/Gold/portals.java
 [art3.cpp]: 2020-2021/Feb%202021/Gold/art3.cpp
+[uddered.cpp]: 2020-2021/Jan%202021/Gold/uddered.cpp
+[uddered.java]: 2020-2021/Jan%202021/Gold/uddered.java
 [telephone.cpp]: 2020-2021/Jan%202021/Gold/telephone.cpp
 [dancemooves.java]: 2020-2021/Jan%202021/Gold/dancemooves.java
 [replication.java]: 2020-2021/Dec%202020/Gold/replication.java

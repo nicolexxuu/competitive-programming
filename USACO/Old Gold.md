@@ -8,13 +8,14 @@
 |                                                             | censor | 
 |                                                             | fencing |
 | [Jan 2015](http://usaco.org/index.php?page=jan15results)    | cowrect |
-|                                                             | movie | 
+|                                                             | movie | [cpp][movie.cpp] | Bitmask DP |
 |                                                             | grass |
-| [Dec 2014](http://usaco.org/index.php?page=dec14results)    | guard | [cpp][guard.cpp]
+| [Dec 2014](http://usaco.org/index.php?page=dec14results)    | guard | [cpp][guard.cpp] | Bitmask DP |
 |                                                             | marathon | 
 |                                                             | cowjog |
 
 [palpath.cpp]: 2014-2015/Open%202015/Gold/palpath.cpp
+[movie.cpp]: 2014-2015/Jan%202015/Gold/movie.cpp
 [guard.cpp]: 2014-2015/Dec%202014/Gold/guard.cpp
 
 

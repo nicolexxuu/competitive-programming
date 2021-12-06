@@ -57,7 +57,7 @@
 | [Open 2019](http://usaco.org/index.php?page=open19results) | snakes | [cpp][snakes.cpp] | DP |
 |                                                            | walk | [Java][walk.java] | MST |
 |                                                            | balance | 
-| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowland | don't expect repeat |
+| [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowland | [cpp][cowland.cpp] | LCA |
 |                                                            | dishes | [Java][dishes.java] |
 |                                                            | paintbarn | [Java][paintbarn.java] | DP/Sweep Line |
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | poetry | [Java][poetry.java] |
@@ -69,6 +69,7 @@
 
 [snakes.cpp]: 2018-2019/Open%202019/Gold/snakes.cpp
 [walk.java]: 2018-2019/Open%202019/Gold/walk.java
+[cowland.cpp]: 2018-2019/Feb%202019/Gold/cowland.cpp
 [dishes.java]: 2018-2019/Feb%202019/Gold/dishes.java
 [paintbarn.java]: 2018-2019/Feb%202019/Gold/paintbarn.java
 [poetry.java]: 2018-2019/Jan%202019/Gold/poetry.java
@@ -85,7 +86,7 @@
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2018](http://usaco.org/index.php?page=open18results) | sort | 
 |                                                            | milkorder | [cpp][milkorder.cpp] | Binary Search/Topological Sort |
-|                                                            | talent | [Java][talent.java] | DP |
+|                                                            | talent | [Java][talent.java] | DP | 
 | [Feb 2018](http://usaco.org/index.php?page=feb18results)   | snowboots | [cpp][snowboots.cpp] [Java][snowboots.java] |
 |                                                            | dirtraverse | 
 |                                                            | taming | [cpp][taming.java] [Java][taming.java] | DP |

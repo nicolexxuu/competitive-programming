@@ -55,7 +55,7 @@
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2019](http://usaco.org/index.php?page=open19results) | snakes | [cpp][snakes.cpp] | DP |
-|                                                            | walk | [Java][walk.java] | MST |
+|                                                            | walk | [cpp][walk.cpp] [Java][walk.java] | MST |
 |                                                            | balance | 
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowland | [cpp][cowland.cpp] | LCA |
 |                                                            | dishes | [Java][dishes.java] |
@@ -68,6 +68,7 @@
 |                                                            | teamwork | [cpp][teamwork.cpp] [Java][teamwork.java] |
 
 [snakes.cpp]: 2018-2019/Open%202019/Gold/snakes.cpp
+[walk.cpp]: 2018-2019/Open%202019/Gold/walk.cpp
 [walk.java]: 2018-2019/Open%202019/Gold/walk.java
 [cowland.cpp]: 2018-2019/Feb%202019/Gold/cowland.cpp
 [dishes.java]: 2018-2019/Feb%202019/Gold/dishes.java

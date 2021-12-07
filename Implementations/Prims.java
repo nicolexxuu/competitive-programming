@@ -21,6 +21,7 @@ public class Prims {
 		
 		boolean[] mark = new boolean[N];
 		int[] dist = new int[N];
+		long total = 0;
 		
 		Arrays.fill(dist, Integer.MAX_VALUE);
 		dist[0] = 0;
@@ -36,9 +37,12 @@ public class Prims {
 				}
 			}
 			mark[minI] = true;
+			total += minDist;
 			
 			for(int i = 1; i <= N; i++) 
 				if(!mark[i]) dist[i] = Math.min(dist[i], adj[minI][i]);
 		}
+
+		System.out.println(total);
 	}
 }

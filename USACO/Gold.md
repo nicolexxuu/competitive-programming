@@ -56,7 +56,7 @@
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2019](http://usaco.org/index.php?page=open19results) | snakes | [cpp][snakes.cpp] | DP |
 |                                                            | walk | [cpp][walk.cpp] [Java][walk.java] | MST |
-|                                                            | balance | 
+|                                                            | balance | [cpp][balance.cpp] | Two Pointer |
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowland | [cpp][cowland.cpp] | LCA |
 |                                                            | dishes | [Java][dishes.java] |
 |                                                            | paintbarn | [Java][paintbarn.java] | DP/Sweep Line |
@@ -69,6 +69,7 @@
 
 [snakes.cpp]: 2018-2019/Open%202019/Gold/snakes.cpp
 [walk.cpp]: 2018-2019/Open%202019/Gold/walk.cpp
+[balance.cpp]: 2018-2019/Open%202019/Gold/balance.cpp
 [walk.java]: 2018-2019/Open%202019/Gold/walk.java
 [cowland.cpp]: 2018-2019/Feb%202019/Gold/cowland.cpp
 [dishes.java]: 2018-2019/Feb%202019/Gold/dishes.java
@@ -92,7 +93,7 @@
 |                                                            | dirtraverse | 
 |                                                            | taming | [cpp][taming.java] [Java][taming.java] | DP |
 | [Jan 2018](http://usaco.org/index.php?page=jan18results)   | mootube | [Java][mootube.java] | DSU |
-|                                                            | atlarge | 
+|                                                            | atlarge | [cpp][atlarge.cpp] | DFS |
 |                                                            | spainting | [Java][spainting.java] |
 | [Dec 2017](http://usaco.org/index.php?page=dec17results)   | piepie | [Java][piepie.java] |
 |                                                            | barnpainting | [cpp][barnpainting.cpp] | 
@@ -105,6 +106,7 @@
 [taming.cpp]: 2017-2018/Feb%202018/Gold/taming.cpp
 [taming.java]: 2017-2018/Feb%202018/Gold/taming.java
 [mootube.java]: 2017-2018/Jan%202018/Gold/mootube.java
+[atlarge.cpp]: 2017-2018/Jan%202018/Gold/atlarge.cpp
 [spainting.java]: 2017-2018/Jan%202018/Gold/spainting.java
 [piepie.java]: 2017-2018/Dec%202017/Gold/piepie.java
 [barnpainting.cpp]: 2017-2018/Dec%202017/Gold/barnpainting.cpp
@@ -113,7 +115,7 @@
 
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2017](http://usaco.org/index.php?page=open17results) | cownomics | 
+| [Open 2017](http://usaco.org/index.php?page=open17results) | cownomics | [cpp][cownomics.cpp] | Binary Search/Hashing |
 |                                                            | art2 | [cpp][art2.cpp] [Java][art2.java] |
 | [Feb 2017](http://usaco.org/index.php?page=feb17results)   | visitfj | [cpp][visitfj.cpp] [Java][visitfj.java] | Shortest Path |
 |                                                            | nocross | [Java][nocross.java]
@@ -125,6 +127,8 @@
 |                                                            | checklist | [Java][checklist.java] | 
 |                                                            | lasers | 
 
+
+[cownomics2.cpp]: 2016-2017/Open%202017/Gold/cownomics.cpp
 [art2.cpp]: 2016-2017/Open%202017/Gold/art2.cpp
 [art2.java]: 2016-2017/Open%202017/Gold/art2.java
 [visitfj.cpp]: 2016-2017/Feb%202017/Gold/visitfj.cpp

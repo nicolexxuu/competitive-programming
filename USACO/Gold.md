@@ -147,7 +147,7 @@
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2016](http://usaco.org/index.php?page=open16results) | split | [cpp][split.cpp] [Java][split.java] | 
 |                                                            | closing | [cpp][closing.cpp] |
-|                                                            | 248 | 
+|                                                            | 248 | [cpp][248.cpp] | DP |
 | [Feb 2016](http://usaco.org/index.php?page=feb16results)   | cbarn | [Java][cbarn.java] | 
 |                                                            | cbarn2 | 
 |                                                            | fencedin | 
@@ -161,6 +161,7 @@
 [split.cpp]: 2015-2016/Open%202016/Gold/split.cpp
 [split.java]: 2015-2016/Open%202016/Gold/split.java
 [closing.cpp]: 2015-2016/Open%202016/Gold/closing.cpp
+[248.cpp]: 2015-2016/Open%202016/Gold/248.cpp
 [cbarn.java]: 2015-2016/Feb%202016/Gold/cbarn.java
 [angry.cpp]: 2015-2016/Jan%202016/Gold/angry.cpp
 [angry.java]: 2015-2016/Jan%202016/Gold/angry.java

@@ -4,10 +4,10 @@
 | [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John | [cpp][united.cpp] | BIT | 
 |                                                            | Portals | [Java][portals.java] | MST |
 |                                                            | Permutation |
-| [Feb 2021](http://usaco.org/index.php?page=feb20results)   | Stone Game |  
+| [Feb 2021](http://usaco.org/index.php?page=feb21results)   | Stone Game |  
 |                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
 |                                                            | Count the Cows |
-| [Jan 2021](http://usaco.org/index.php?page=jan20results)   | Uddered but not Herd | [cpp][uddered.cpp] [Java][uddered.java] | Bitmask DP |
+| [Jan 2021](http://usaco.org/index.php?page=jan21results)   | Uddered but not Herd | [cpp][uddered.cpp] [Java][uddered.java] | Bitmask DP |
 |                                                            | Telephone | [cpp][telephone.cpp] | Shortest Path |
 |                                                            | Dance Mooves | [Java][dancemooves.java] | 
 | [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Replication | [Java][replication.java] | BFS |

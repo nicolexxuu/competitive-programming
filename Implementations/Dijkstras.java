@@ -10,7 +10,6 @@ public class Dijkstras {
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());
 		int M = Integer.parseInt(st.nextToken());
-		int B = Integer.parseInt(st.nextToken());
 		ArrayList<ArrayList<Edge>> adj = new ArrayList<>();
 		for(int i = 0; i < N; i++) adj.add(new ArrayList<>());
 		for(int i = 0; i < M; i++) {
@@ -29,16 +28,14 @@ public class Dijkstras {
 		dist[0] = 0;
 		PriorityQueue<Edge> toVisit = new PriorityQueue<>();
 		toVisit.add(new Edge(0, 0));
-		boolean[] mark = new boolean[N];
 		
 		while(!toVisit.isEmpty()) {
 			Edge curr = toVisit.remove();
 			int id = curr.to;
 			
-			if(mark[id]) continue;
-			mark[id] = true;
+			if(curr.weight != dist[id]) continue;
 			
-			for(Edge e: adj.get(id)) {
+			for(Edge e : adj.get(id)) {
 				if(e.weight + dist[id] < dist[e.to]) {
 					dist[e.to] = e.weight + dist[id];
 					toVisit.add(new Edge(e.to, dist[e.to]));

@@ -1,10 +1,4 @@
-// This template code suggested by KT BYTE Computer Science Academy
-//   for use in reading and writing files for USACO problems.
-
-// https://content.ktbyte.com/problem.java
-
-//http://www.usaco.org/index.php?page=viewproblem2&cpid=765
-//"A Pie for a Pie", 2017 December Gold Contest
+// A Pie for a Pie
 
 import java.util.*;
 import java.io.*;
@@ -13,145 +7,81 @@ public class piepie {
 	public static void main(String[] args) throws IOException {
 		String file = "piepie";
 		BufferedReader br = new BufferedReader(new FileReader(new File(file + ".in")));
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		int N = Integer.parseInt(st.nextToken());
 		int D = Integer.parseInt(st.nextToken());
+		int[][] bessie = new int[N][2], elsie = new int[N][2];
+		TreeSet<Pair> bSet = new TreeSet<>(), eSet = new TreeSet<>();
+		ArrayDeque<int[]> toVisit = new ArrayDeque<>();
+		int res[][] = new int[N][2];
 		
-		ArrayDeque<int[]> toVisit = new ArrayDeque<int[]>();
-		
-		Pie[] bessie = new Pie[N]; //pies given to elsie
 		for(int i = 0; i < N; i++) {
 			st = new StringTokenizer(br.readLine());
-			int b = Integer.parseInt(st.nextToken());
-			int e = Integer.parseInt(st.nextToken());
-			bessie[i] = new Pie(i, b, e);
-		}
-		
-		Pie[] elsie = new Pie[N];  //pies given to bessie
-		for(int i = 0; i < N; i++) {
-			st = new StringTokenizer(br.readLine());
-			int b = Integer.parseInt(st.nextToken());
-			int e = Integer.parseInt(st.nextToken());
-			elsie[i] = new Pie(i, b, e);
-		}
-		
-		Arrays.sort(bessie, (x, y) -> x.b - y.b);
-		Arrays.sort(elsie, (x, y) -> x.e - y.e);
-		
-		for(int i = 0; i < N; i++) {
-			if(bessie[i].e == 0) {
-				toVisit.add(new int[] {i, 0, 1}); //0 - bessie, 1 - elsie
-			}
-			
-			if(elsie[i].b == 0) {
-				toVisit.add(new int[] {i, 1, 1});
+			res[i][0] = res[i][1] = -1;
+			bessie[i][0] = Integer.parseInt(st.nextToken());
+			bessie[i][1] = Integer.parseInt(st.nextToken());
+			if(bessie[i][1] == 0) {
+				toVisit.add(new int[] {i, 0});
+				res[i][0] = 1;
+			} else {
+				bSet.add(new Pair(bessie[i][1], bessie[i][0], i));
 			}
 		}
 		
-		br.close();
-
+		for(int i = 0; i < N; i++) {
+			st = new StringTokenizer(br.readLine());
+			elsie[i][0] = Integer.parseInt(st.nextToken());
+			elsie[i][1] = Integer.parseInt(st.nextToken());
+			if(elsie[i][0] == 0) {
+				toVisit.add(new int[] {i, 1});
+				res[i][1] = 1;
+			} else {
+				eSet.add(new Pair(elsie[i][0], elsie[i][1], i));
+			}
+		}
+		br.close(); 
+		
 		while(!toVisit.isEmpty()) {
-			int[] curr = toVisit.remove();
-			int i = curr[0];
-			System.out.println(i);
-			
-			boolean b = curr[1] == 0;
-			
-			Pie c;
-			if(b) c = bessie[i];
-			else c = elsie[i];
-			int steps = curr[2];
-			System.out.println(c.b + " " + c.e);
-			
-			int l = 0, r = 0;
-			if(b) {
-				System.out.println("searching for " + (c.b - D) + " to " + c.b);
-				l = bs(elsie, c.b - D, false);
-				r = bs(elsie, c.b, false);
-				System.out.println(l + " " + r);
-				while(l <= r && l < N) {
-					if(elsie[l].b <= c.b && elsie[l].b >= c.b - D && elsie[l].steps > steps + 1) {
-						elsie[l].steps = steps + 1;
-						toVisit.add(new int[] {l, 1, steps + 1});
-					}
-					l++;
+			int i = toVisit.getFirst()[0], g = toVisit.remove()[1];
+			if(g == 0) { 
+				int bGift = bessie[i][0];
+				while(eSet.higher(new Pair(bGift-D-1, -1, -1)) != null && eSet.higher(new Pair(bGift-D-1, -1, -1)).f <= bGift) {
+					Pair rem = eSet.higher(new Pair(bGift-D-1, -1, -1));
+					res[rem.i][1] = res[i][0] + 1; 
+					eSet.remove(rem);
+					toVisit.add(new int[] {rem.i, 1});
 				}
 			} else {
-				System.out.println("searching for " + (c.e - D) + " to " + c.e);
-				l = bs(bessie, c.e - D, true);
-				r = bs(bessie, c.e, true);
-				while(l <= r && l < N) {
-					if(bessie[l].e <= c.e && bessie[l].e >= c.e - D && bessie[l].steps > steps + 1) {
-						bessie[l].steps = steps + 1;
-						toVisit.add(new int[] {l, 0, steps + 1});
-					}
-					l++;
+				int eGift = elsie[i][1];
+				while(bSet.higher(new Pair(eGift-D-1, -1, -1)) != null && bSet.higher(new Pair(eGift-D-1, -1, -1)).f <= eGift) {
+					Pair rem = bSet.higher(new Pair(eGift-D-1, -1, -1));
+					res[rem.i][0] = res[i][1] + 1;
+					bSet.remove(rem);
+					toVisit.add(new int[] {rem.i, 0});
 				}
 			}
 		}
 		
-		int[] result = new int[N];
-		for(int j = 0; j < N; j++) {
-			if(bessie[j].steps < Integer.MAX_VALUE) result[bessie[j].id] = bessie[j].steps;
-			else result[bessie[j].id] = -1;
-		}
-		
-		PrintWriter out = new PrintWriter(new File(file + ".out"));
-		for(int i = 0; i < N; i++) {
-			int val = result[i];
-			if(val == Integer.MAX_VALUE) {
-				out.println(-1);
-				System.out.println(-1);
-			} else {
-				out.println(val);
-				System.out.println(val);
-			}
-		}
+		PrintWriter out = new PrintWriter(new BufferedWriter(new FileWriter(new File(file + ".out"))));
+		for(int i = 0; i < N; i++) out.println(res[i][0]);
+
 		out.close();
 	}
 	
-	static class Pie {
-		int id;
-		int b, e;
-		int steps;
-		
-		Pie(int id, int b, int e){
-			this.id = id;
-			this.b = b;
-			this.e = e;
-			steps = Integer.MAX_VALUE;
-		}
-	}
-	
-	public static int bs(Pie[] A, int target, boolean bessie) {
-		
-		if(bessie) {
-			int low = 0;
-			int high = A.length - 1;
-			while (low < high) {
-				int mid = (low + high) / 2;
-				if (A[mid].b >= target) {
-					high = mid;
-				} else {
-					low = mid + 1;
-				}
-			}
-	
-			return low;
-		}
-		
-		int low = 0;
-		int high = A.length - 1;
-		while (low < high) {
-			int mid = (low + high) / 2;
-			if (A[mid].e >= target) {
-				high = mid;
-			} else {
-				low = mid + 1;
-			}
+	public static class Pair implements Comparable<Pair> {
+		int f, s;
+		int i;
+		Pair(int f, int s, int i) {
+			this.f = f;
+			this.s = s;
+			this.i = i;
 		}
 
-		return low;
+		public int compareTo(Pair other) { 
+			return f == other.f ? other.i - i : f - other.f; // allow cows with duplicate tastiness values
+		}
+		
+		public String toString() { return "f: "  + f + " s: " + s + " i: " + i; }
 	}
 }
-

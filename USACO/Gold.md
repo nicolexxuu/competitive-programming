@@ -1,6 +1,26 @@
 # Gold
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
+| [Open 2022](http://usaco.org/index.php?page=open22results) | United Cows of Farmer John | [cpp][united.cpp] | BIT | 
+|                                                            | Portals | [Java][portals.java] | MST |
+|                                                            | Permutation |
+| [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Stone Game |  
+|                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
+|                                                            | Count the Cows |
+| [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Uddered but not Herd | [cpp][uddered.cpp] [Java][uddered.java] | Bitmask DP |
+|                                                            | Telephone | [cpp][telephone.cpp] | Shortest Path |
+|                                                            | Dance Mooves | [Java][dancemooves.java] | 
+| [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][pairedup.cpp] | DP |
+|                                                            | HILO | [cpp][hilo.cpp] | |
+|                                                            | Bracelet Crossings | [Java][braceletcrossings.java] |
+
+[pairedup.cpp]: 2021-2022/Dec%202021/Gold/pairedup.cpp
+[hilo.cpp]: 2021-2022/Dec%202021/Gold/hilo.cpp
+[braceletcrossings.java]: 2021-2022/Dec%202021/Gold/braceletcrossings.java
+
+
+| Contest                                                    | Problem | Implementation | Topic |
+|------------------------------------------------------------|---------|----------------|-------|
 | [Open 2021](http://usaco.org/index.php?page=open21results) | United Cows of Farmer John | [cpp][united.cpp] | BIT | 
 |                                                            | Portals | [Java][portals.java] | MST |
 |                                                            | Permutation |
@@ -34,7 +54,7 @@
 |                                                            | help | [Java][help.java] |
 |                                                            | deleg |
 | [Jan 2020](http://usaco.org/index.php?page=jan20results)   | time | [Java][time.java] |
-|                                                            | threesum | [Java][threesum.java] | DP |
+|                                                            | threesum | [cpp][threesum.cpp] [Java][threesum.java] | DP |
 |                                                            | boards |
 | [Dec 2019](http://usaco.org/index.php?page=dec19results)   | pump | [Java][pump.java] |
 |                                                            | milkvisits | [cpp][milkvisits.cpp] | 
@@ -46,6 +66,7 @@
 [timeline.java]: 2019-2020/Feb%202020/Gold/timeline.java
 [help.java]: 2019-2020/Jan%202020/Gold/help.java
 [time.java]: 2019-2020/Jan%202020/Gold/time.java
+[threesum.cpp]: 2019-2020/Jan%202020/Gold/threesum.cpp
 [threesum.java]: 2019-2020/Jan%202020/Gold/threesum.java
 [pump.java]: 2019-2020/Dec%202019/Gold/pump.java
 [milkvisits.cpp]: 2019-2020/Dec%202019/Gold/milkvisits.cpp
@@ -58,7 +79,7 @@
 |                                                            | walk | [cpp][walk.cpp] [Java][walk.java] | MST |
 |                                                            | balance | [cpp][balance.cpp] | Two Pointer |
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowland | [cpp][cowland.cpp] | LCA |
-|                                                            | dishes | [Java][dishes.java] |
+|                                                            | dishes | [cpp][dishes.cpp] [Java][dishes.java] | Stacks |
 |                                                            | paintbarn | [Java][paintbarn.java] | DP/Sweep Line |
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | poetry | [Java][poetry.java] |
 |                                                            | sleepy | [cpp][sleepy.cpp] [Java][sleepy.java] |
@@ -72,6 +93,7 @@
 [balance.cpp]: 2018-2019/Open%202019/Gold/balance.cpp
 [walk.java]: 2018-2019/Open%202019/Gold/walk.java
 [cowland.cpp]: 2018-2019/Feb%202019/Gold/cowland.cpp
+[dishes.cpp]: 2018-2019/Feb%202019/Gold/dishes.cpp
 [dishes.java]: 2018-2019/Feb%202019/Gold/dishes.java
 [paintbarn.java]: 2018-2019/Feb%202019/Gold/paintbarn.java
 [poetry.java]: 2018-2019/Jan%202019/Gold/poetry.java
@@ -122,7 +144,7 @@
 |                                                            | circlecross | [Java][circlecross.java]
 | [Jan 2017](http://usaco.org/index.php?page=jan17results)   | bphoto | [cpp][bphoto.cpp] | 
 |                                                            | hps | [cpp][hps.cpp] | 
-|                                                            | cownav | [Java][cownav.java]
+|                                                            | cownav | [Java][cownav.java] | BFS |
 | [Dec 2016](http://usaco.org/index.php?page=dec16results)   | moocast | [cpp][moocast.cpp] [Java][moocast.java] |
 |                                                            | checklist | [Java][checklist.java] | 
 |                                                            | lasers | 

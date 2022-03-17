@@ -1,6 +1,6 @@
 // Binary Index Tree Implementation
 
-#include <iostream>
+#include <bits/stdc++.h>
 
 #define MAXN 10003
 

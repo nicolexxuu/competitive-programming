@@ -26,14 +26,14 @@ public class MultiSet {
 		
 		// add 1 to the frequency of element a
 		// O(log N)
-		public static void insert(int a) {
+		public void insert(int a) {
 			map.putIfAbsent(a, 0);
            		map.put(a, map.get(a)+1);
 		}
 		
 		// remove 1 from the frequency of element a, remove key from map if needed
 		// O(log N)
-		public static void erase(TreeMap<Integer, Integer> map, int a) {
+		public void erase(int a) {
 			if(map.get(a) > 1) map.replace(a, map.get(a) - 1);
 			else map.remove(a);
 		}

@@ -50,9 +50,9 @@
 |                                                            | cowjump |
 |                                                            | fenceplan |
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | herding | [cpp][herding.cpp] [Java][herding.java] |
-|                                                            | paintbarn | 
+|                                                            | paintbarn | [cpp][paintbarn.cpp] |
 |                                                            | revegetate |
-| [Jan 2019](http://usaco.org/index.php?page=jan19results)   | planting |
+| [Jan 2019](http://usaco.org/index.php?page=jan19results)   | planting | [cpp][planting.cpp] [Java][planting.java] |
 |                                                            | perimeter | 
 |                                                            | mountains |
 | [Dec 2018](http://usaco.org/index.php?page=dec18results)   | convention | [Java][convention.java] |
@@ -61,6 +61,9 @@
 
 [herding.cpp]: 2018-2019/Feb%202019/Silver/herding.cpp
 [herding.java]: 2018-2019/Feb%202019/Silver/herding.java
+[paintbarn.cpp]: 2018-2019/Feb%202019/Silver/paintbarn.cpp
+[planting.cpp]: 2018-2019/Jan%202019/Silver/planting.cpp
+[planting.java]: 2018-2019/Jan%202019/Silver/planting.java
 [convention.java]: 2018-2019/Dec%202018/Silver/convention.java
 [convention2.java]: 2018-2019/Dec%202018/Silver/convention2.java
 [mooyomooyo.java]: 2018-2019/Dec%202018/Silver/mooyomooyo.java

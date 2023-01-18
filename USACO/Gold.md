@@ -1,19 +1,41 @@
 # Gold
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2022](http://usaco.org/index.php?page=open22results) | United Cows of Farmer John | [cpp][united.cpp] | BIT | 
-|                                                            | Portals | [Java][portals.java] | MST |
-|                                                            | Permutation |
-| [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Stone Game |  
-|                                                            | Modern Art 3 | [cpp][art3.cpp] | DP |
-|                                                            | Count the Cows |
-| [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Uddered but not Herd | [cpp][uddered.cpp] [Java][uddered.java] | Bitmask DP |
-|                                                            | Telephone | [cpp][telephone.cpp] | Shortest Path |
-|                                                            | Dance Mooves | [Java][dancemooves.java] | 
-| [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][pairedup.cpp] | DP |
+| [Open 2023](http://usaco.org/index.php?page=open23results) |  |  |  | 
+|                                                            |  |  |  |
+|                                                            |  |
+| [Feb 2023](http://usaco.org/index.php?page=feb23results)   |  |  
+|                                                            |  |  |  |
+|                                                            |  |
+| [Jan 2023](http://usaco.org/index.php?page=jan23results)   |  |  |  |
+|                                                            |  |  |  |
+|                                                            |  |  | 
+| [Dec 2022](http://usaco.org/index.php?page=dec22results)   | Bribing Friends | [Java][bribing.java] | DP |
+|                                                            | Mountains |  | |
+|                                                            | Strongest Friendship Group | [Java][friendship.java] | DSU |
+
+[bribing.java]: 2022-2023/Dec%202022/Gold/bribing.java
+[friendship.java]: 2022-2023/Dec%202022/Gold/friendship.java
+
+
+
+| Contest                                                    | Problem | Implementation | Topic |
+|------------------------------------------------------------|---------|----------------|-------|
+| [Open 2022](http://usaco.org/index.php?page=open22results) | Apple Catching |  |  | 
+|                                                            | Pair Programming | [Java][pairprogramming.java] | DP |
+|                                                            | Balancing a Tree |
+| [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Redistributing Gifts |  
+|                                                            | Cow Camp |  |  |
+|                                                            | Moo Network | [Java][moonetwork.java] | |
+| [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Drought |  |  |
+|                                                            | Farm Updates |  |  |
+|                                                            | Tests for Haybales |  | 
+| [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][[pairedup.cpp] | DP |
 |                                                            | HILO | [cpp][hilo.cpp] | |
 |                                                            | Bracelet Crossings | [Java][braceletcrossings.java] |
 
+[pairprogramming.java]: 2021-2022/Open%202022/Gold/pairprogramming.java
+[moonetwork.java]: 2021-2022/Feb%202022/Gold/moonetwork.java
 [pairedup.cpp]: 2021-2022/Dec%202021/Gold/pairedup.cpp
 [hilo.cpp]: 2021-2022/Dec%202021/Gold/hilo.cpp
 [braceletcrossings.java]: 2021-2022/Dec%202021/Gold/braceletcrossings.java
@@ -171,7 +193,7 @@
 |                                                            | closing | [cpp][closing.cpp] |
 |                                                            | 248 | [cpp][248.cpp] | DP |
 | [Feb 2016](http://usaco.org/index.php?page=feb16results)   | cbarn | [Java][cbarn.java] | 
-|                                                            | cbarn2 | 
+|                                                            | cbarn2 | [cpp][cbarn2.cpp] | DP |
 |                                                            | fencedin | 
 | [Jan 2016](http://usaco.org/index.php?page=jan16results)   | angry | [cpp][angry.cpp] [Java][angry.java]
 |                                                            | radio | 
@@ -185,6 +207,7 @@
 [closing.cpp]: 2015-2016/Open%202016/Gold/closing.cpp
 [248.cpp]: 2015-2016/Open%202016/Gold/248.cpp
 [cbarn.java]: 2015-2016/Feb%202016/Gold/cbarn.java
+[cbarn2.cpp]: 2015-2016/Feb%202016/Gold/cbarn2.cpp
 [angry.cpp]: 2015-2016/Jan%202016/Gold/angry.cpp
 [angry.java]: 2015-2016/Jan%202016/Gold/angry.java
 [lightsout.cpp]: 2015-2016/Jan%202016/Gold/lightsout.cpp

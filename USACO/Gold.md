@@ -30,7 +30,7 @@
 | [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Drought |  |  |
 |                                                            | Farm Updates |  |  |
 |                                                            | Tests for Haybales |  | 
-| [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][[pairedup.cpp] | DP |
+| [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][pairedup.cpp] | DP |
 |                                                            | HILO | [cpp][hilo.cpp] | |
 |                                                            | Bracelet Crossings | [Java][braceletcrossings.java] |
 
@@ -172,7 +172,7 @@
 |                                                            | lasers | 
 
 
-[cownomics2.cpp]: 2016-2017/Open%202017/Gold/cownomics.cpp
+[cownomics.cpp]: 2016-2017/Open%202017/Gold/cownomics.cpp
 [art2.cpp]: 2016-2017/Open%202017/Gold/art2.cpp
 [art2.java]: 2016-2017/Open%202017/Gold/art2.java
 [visitfj.cpp]: 2016-2017/Feb%202017/Gold/visitfj.cpp

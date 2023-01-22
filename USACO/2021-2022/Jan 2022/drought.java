@@ -22,22 +22,25 @@ public class drought {
 		br.close();
 		
 		long res = 0;
+		long[][] ps = new long[N][max+1];
+		Arrays.fill(ps[0], 1);
+		
 		for(int start = 0; start <= (N%2 == 0 ? 0 : min); start++) {
 			long[][] dp = new long[N][max+1];
-			long[][] ps = new long[N][max+1];
-			dp[0][0] = 1;
-			Arrays.fill(ps[0], 1);
 			
 			for(int i = 1; i < N; i++) {
 				for(int end = 0; end <= Math.min(H[i-1], H[i]); end++)
 					dp[i][end] = ps[i-1][H[i-1] - end];
 				
 				ps[i][0] = dp[i][0];
-				for(int j = 1; j <= max; j++)
-					ps[i][j] = (ps[i][j-1] + dp[i][j]) % MOD;
+				for(int j = 1; j <= max; j++) {
+					ps[i][j] = ps[i][j-1] + dp[i][j];
+					if(ps[i][j] >= MOD) ps[i][j] -= MOD; // barely runs under time lol
+				}
 			}
 			
-			res = (res + ps[N-1][max]) % MOD;
+			res += ps[N-1][max];
+			if(res >= MOD) res -= MOD;
 			for(int i = 0; i < N; i++) H[i]--;
 		}
 		

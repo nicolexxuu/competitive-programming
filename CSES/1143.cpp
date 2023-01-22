@@ -10,7 +10,7 @@ struct SegTree {
 	ll *tree;
 	
 	SegTree(int N) {
-		sz = N;
+		sz = 1 << (int)(ceil(log2(N)));
 		tree = new ll[sz * 2];
 		memset(tree, 0, 2 * sz * sizeof(ll));
 		
@@ -24,37 +24,26 @@ struct SegTree {
 		for(int i = idx / 2; i > 0; i /= 2) tree[i] = max(tree[i * 2], tree[i * 2 + 1]);
 	}
 	
-	ll query(int lo, int hi) {
-		lo += sz, hi += sz - 1;
-		ll total = 0;
-		
-		while(lo <= hi) {
-			if(lo % 2 == 1) 
-				total = max(total, tree[lo++]); 
-			if(hi % 2 == 0) 
-				total = max(total, tree[hi--]); 
-			
-			lo /= 2; 
-			hi /= 2;
+	int query(int r) {
+		int idx = 1;
+		while(idx < sz) {
+			if(tree[2*idx] >= r) idx = idx * 2;
+			else idx = idx * 2 + 1;
 		}
-	
-		return total;
+		
+		return min(n-1, idx - sz); // prevent OOB error
 	}
 };
 
-void solve1() {
+int main() {
+	cin >> n >> m;
+	for(int i = 0; i < n; i++) cin >> arr[i];
+	
 	SegTree st(n);
 	
 	for(int i = 0; i < m; i++) {
 		int r; cin >> r;
-		
-		int lo = 0, hi = n-1;
-		while (lo < hi) {
-			int mid = (lo + hi) / 2;
-			if (st.query(0, mid+1) >= r) hi = mid;
-			else lo = mid + 1;
-		}
-
+		int lo = st.query(r);
 		if(arr[lo] < r) {
 			cout << 0 << endl;
 		} else {
@@ -63,15 +52,4 @@ void solve1() {
 			arr[lo] -= r;
 		}
 	}
-}
-
-void solve2() {
-}
-
-int main() {
-	cin >> n >> m;
-	for(int i = 0; i < n; i++) cin >> arr[i];
-	
-//	solve1();
-	solve2();
 }

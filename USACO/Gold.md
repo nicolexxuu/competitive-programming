@@ -23,23 +23,25 @@
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2022](http://usaco.org/index.php?page=open22results) | Apple Catching | [Java][applecatching.java] | Greedy | 
 |                                                            | Pair Programming | [Java][pairprogramming.java] | DP |
-|                                                            | Balancing a Tree |
+|                                                            | Balancing a Tree | [Java][balancingtree.java] | 
 | [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Redistributing Gifts |  
 |                                                            | Cow Camp |  |  |
 |                                                            | Moo Network | [Java][moonetwork.java] | DFS |
 | [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Drought | [Java][drought.java] | DP |
 |                                                            | Farm Updates | [cpp][farmupdates.cpp] [Java][farmupdates.java] |  |
-|                                                            | Tests for Haybales |  | 
+|                                                            | Tests for Haybales | [Java][tests.java] | DFS |
 | [Dec 2021](http://usaco.org/index.php?page=dec21results)   | Paired Up | [cpp][pairedup.cpp] | DP |
 |                                                            | HILO | [cpp][hilo.cpp] | |
 |                                                            | Bracelet Crossings | [Java][braceletcrossings.java] |
 
 [applecatching.java]: 2021-2022/Open%202022/Gold/applecatching.java
 [pairprogramming.java]: 2021-2022/Open%202022/Gold/pairprogramming.java
+[balancingtree.java]: 2021-2022/Open%202022/Gold/balancingtree.java
 [moonetwork.java]: 2021-2022/Feb%202022/Gold/moonetwork.java
 [drought.java]: 2021-2022/Jan%202022/Gold/drought.java
 [farmupdates.cpp]: 2021-2022/Jan%202022/Gold/farmupdates.cpp
 [farmupdates.java]: 2021-2022/Jan%202022/Gold/farmupdates.java
+[tests.java]: 2021-2022/Jan%202022/Gold/tests.java
 [pairedup.cpp]: 2021-2022/Dec%202021/Gold/pairedup.cpp
 [hilo.cpp]: 2021-2022/Dec%202021/Gold/hilo.cpp
 [braceletcrossings.java]: 2021-2022/Dec%202021/Gold/braceletcrossings.java
@@ -75,14 +77,14 @@
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
 | [Open 2020](http://usaco.org/index.php?page=open20results) | haircut | [cpp][haircut.cpp] | BIT |
-|                                                            | fcolor | TODO | DSU |
+|                                                            | fcolor | [cpp][fcolor.cpp] | DSU |
 |                                                            | exercise | [Java][exercise.java] | DP |
 | [Feb 2020](http://usaco.org/index.php?page=feb20results)   | timeline | [Java][timeline.java] | Topological Sort |
 |                                                            | help | [Java][help.java] |
-|                                                            | deleg |
+|                                                            | deleg | [Java][deleg.java] | DP |
 | [Jan 2020](http://usaco.org/index.php?page=jan20results)   | time | [Java][time.java] |
 |                                                            | threesum | [cpp][threesum.cpp] [Java][threesum.java] | DP |
-|                                                            | boards |
+|                                                            | boards | [Java][boards.java] |
 | [Dec 2019](http://usaco.org/index.php?page=dec19results)   | pump | [Java][pump.java] |
 |                                                            | milkvisits | [cpp][milkvisits.cpp] | 
 |                                                            | cowmbat | [Java][cowmbat.java] |
@@ -92,9 +94,11 @@
 [exercise.java]: 2019-2020/Open%202020/Gold/exercise.java
 [timeline.java]: 2019-2020/Feb%202020/Gold/timeline.java
 [help.java]: 2019-2020/Jan%202020/Gold/help.java
+[deleg.java]: 2019-2020/Jan%202020/Gold/deleg.java
 [time.java]: 2019-2020/Jan%202020/Gold/time.java
 [threesum.cpp]: 2019-2020/Jan%202020/Gold/threesum.cpp
 [threesum.java]: 2019-2020/Jan%202020/Gold/threesum.java
+[boards.java]: 2019-2020/Jan%202020/Gold/boards.java
 [pump.java]: 2019-2020/Dec%202019/Gold/pump.java
 [milkvisits.cpp]: 2019-2020/Dec%202019/Gold/milkvisits.cpp
 [cowmbat.java]: 2019-2020/Dec%202019/Gold/cowmbat.java

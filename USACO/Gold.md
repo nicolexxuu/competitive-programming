@@ -60,7 +60,7 @@
 |                                                            | Dance Mooves | [Java][dancemooves.java] | 
 | [Dec 2020](http://usaco.org/index.php?page=dec20results)   | Replication | [Java][replication.java] | BFS |
 |                                                            | Bovine Genetics | [Java][bovgenetics.java] | DP |
-|                                                            | Square Pasture | TODO |
+|                                                            | Square Pasture | [Java][squarepasture.java] | Two Pointers |
 
 [united.cpp]: 2020-2021/Open%202021/Gold/united.cpp
 [portals.java]: 2020-2021/Open%202021/Gold/portals.java
@@ -72,6 +72,7 @@
 [dancemooves.java]: 2020-2021/Jan%202021/Gold/dancemooves.java
 [replication.java]: 2020-2021/Dec%202020/Gold/replication.java
 [bovgenetics.java]: 2020-2021/Dec%202020/Gold/bovgenetics.java
+[squarepasture.java]: 2020-2021/Dec%202020/Gold/squarepasture.java
 
 
 | Contest                                                    | Problem | Implementation | Topic |
@@ -139,7 +140,7 @@
 
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2018](http://usaco.org/index.php?page=open18results) | sort | 
+| [Open 2018](http://usaco.org/index.php?page=open18results) | sort | [Java][sort.java] | BIT | 
 |                                                            | milkorder | [cpp][milkorder.cpp] | Binary Search/Topological Sort |
 |                                                            | talent | [Java][talent.java] | DP | 
 | [Feb 2018](http://usaco.org/index.php?page=feb18results)   | snowboots | [cpp][snowboots.cpp] [Java][snowboots.java] |
@@ -152,6 +153,7 @@
 |                                                            | barnpainting | [cpp][barnpainting.cpp] | 
 |                                                            | hayfeast | [Java][hayfeast.java] |
 
+[sort.java]: 2017-2018/Open%202018/Gold/sort.cpp
 [milkorder.cpp]: 2017-2018/Open%202018/Gold/milkorder.cpp
 [talent.java]: 2017-2018/Open%202018/Gold/talent.java
 [snowboots.cpp]: 2017-2018/Feb%202018/Gold/snowboots.cpp

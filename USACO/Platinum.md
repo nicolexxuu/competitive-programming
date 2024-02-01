@@ -24,7 +24,7 @@
 |                                                            | escape |
 |                                                            | valleys|
 | [Feb 2019](http://usaco.org/index.php?page=feb19results)   | cowdate |
-|                                                            | mooriokart | 
+|                                                            | mooriokart | [java][mooriokartjava] | DP |
 |                                                            | mowing |
 | [Jan 2019](http://usaco.org/index.php?page=jan19results)   | redistricting | [cpp][redistricting.cpp] [Java][redistricting.java] |
 |                                                            | exercise | 
@@ -33,6 +33,7 @@
 |                                                            | itout |
 |                                                            | gathering | 
 
+[mooriokart.java]: 2018-2019/Feb%202019/Plat/mooriokart.java
 [redistricting.cpp]: 2018-2019/Jan%202019/Plat/redistricting.cpp
 [redistricting.java]: 2018-2019/Jan%202019/Plat/redistricting.java
 
@@ -83,7 +84,7 @@
 |                                                            | bcs | 
 |                                                            | landscape | 
 | [Feb 2016](http://usaco.org/index.php?page=feb16results)   | balancing | 
-|                                                            | fencedin | 
+|                                                            | fencedin | [cpp][fencedin.cpp] | MST |
 |                                                            | cbarn | 
 | [Jan 2016](http://usaco.org/index.php?page=jan16results)   | fortmoo | [Java][fortmoo.java] | 
 |                                                            | mowing | 
@@ -93,5 +94,6 @@
 |                                                            | haybales | [cpp][haybales.cpp] | Segment Tree (Lazy Propagation) |
 
 [262144.java]: 2015-2016/Open%202016/Plat/262144.java
+[262144.java]: 2015-2016/Feb%202016/Plat/fencedin.cpp
 [fortmoo.java]: 2015-2016/Jan%202016/Plat/fortmoo.java
 [haybales.cpp]: 2015-2016/Dec%202015/Plat/haybales.cpp

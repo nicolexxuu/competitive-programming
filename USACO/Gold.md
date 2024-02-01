@@ -1,19 +1,45 @@
 # Gold
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
+| [Open 2024](http://usaco.org/index.php?page=open24results) |  |  |  | 
+|                                                            |  |  |  |
+|                                                            |  |  |  |
+| [Feb 2024](http://usaco.org/index.php?page=feb24results)   |  |  |  |
+|                                                            |  |  |  |
+|                                                            |  |  |  |
+| [Jan 2024](http://usaco.org/index.php?page=jan24results)   |  |  |  |
+|                                                            |  |  |  |
+|                                                            |  |  |  |
+| [Dec 2023](http://usaco.org/index.php?page=dec23results)   |  |  |  |
+|                                                            |  |  |  |
+|                                                            | Haybale Distribution | [Java][haybaledistribution.java] |  |
+
+
+[haybaledistribution.java]: 2023-2024/Dec%202023/Gold/haybaledistribution.java
+
+
+
+| Contest                                                    | Problem | Implementation | Topic |
+|------------------------------------------------------------|---------|----------------|-------|
 | [Open 2023](http://usaco.org/index.php?page=open23results) |  |  |  | 
 |                                                            |  |  |  |
-|                                                            |  |
-| [Feb 2023](http://usaco.org/index.php?page=feb23results)   |  |  
 |                                                            |  |  |  |
-|                                                            |  |
-| [Jan 2023](http://usaco.org/index.php?page=jan23results)   |  |  |  |
-|                                                            |  |  |  |
-|                                                            |  |  | 
+| [Feb 2023](http://usaco.org/index.php?page=feb23results)   | Equal Sum Subarrays | [Java][subarrays.java] | |
+|                                                            | Fertilizing Pastures | [Java][fertilizingpastures.java] |  |
+|                                                            | Piling Papers |
+| [Jan 2023](http://usaco.org/index.php?page=jan23results)   | Find and Replace | [Java][findreplace.java] |  |
+|                                                            | Lights Off | [Java][lightsoff.java] | Bitmask DP |
+|                                                            | Moo Route | [Java][mooroute.java] | Combinatorics |
 | [Dec 2022](http://usaco.org/index.php?page=dec22results)   | Bribing Friends | [Java][bribing.java] | DP |
 |                                                            | Mountains |  | |
 |                                                            | Strongest Friendship Group | [Java][friendship.java] | DSU |
 
+
+[subarrays.java]: 2022-2023/Feb%202023/Gold/subarrays.java
+[fertilizingpastures.java]: 2022-2023/Feb%202023/Gold/fertilizingpastures.java
+[findreplace.java]: 2022-2023/Jan%202023/Gold/findreplace.java
+[lightsoff.java]: 2022-2023/Jan%202023/Gold/lightsoff.java
+[mooroute.java]: 2022-2023/Jan%202023/Gold/mooroute.java
 [bribing.java]: 2022-2023/Dec%202022/Gold/bribing.java
 [friendship.java]: 2022-2023/Dec%202022/Gold/friendship.java
 
@@ -24,7 +50,7 @@
 | [Open 2022](http://usaco.org/index.php?page=open22results) | Apple Catching | [Java][applecatching.java] | Greedy | 
 |                                                            | Pair Programming | [Java][pairprogramming.java] | DP |
 |                                                            | Balancing a Tree | [Java][balancingtree.java] | 
-| [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Redistributing Gifts |  
+| [Feb 2022](http://usaco.org/index.php?page=feb22results)   | Redistributing Gifts | [Java][redistributing.java] | Bitmask DP |
 |                                                            | Cow Camp |  |  |
 |                                                            | Moo Network | [Java][moonetwork.java] | DFS |
 | [Jan 2022](http://usaco.org/index.php?page=jan22results)   | Drought | [Java][drought.java] | DP |
@@ -37,6 +63,7 @@
 [applecatching.java]: 2021-2022/Open%202022/Gold/applecatching.java
 [pairprogramming.java]: 2021-2022/Open%202022/Gold/pairprogramming.java
 [balancingtree.java]: 2021-2022/Open%202022/Gold/balancingtree.java
+[redistributing.java]: 2021-2022/Feb%202022/Gold/redistributing.java
 [moonetwork.java]: 2021-2022/Feb%202022/Gold/moonetwork.java
 [drought.java]: 2021-2022/Jan%202022/Gold/drought.java
 [farmupdates.cpp]: 2021-2022/Jan%202022/Gold/farmupdates.cpp
@@ -150,7 +177,7 @@
 |                                                            | atlarge | [cpp][atlarge.cpp] | DFS |
 |                                                            | spainting | [Java][spainting.java] |
 | [Dec 2017](http://usaco.org/index.php?page=dec17results)   | piepie | [Java][piepie.java] |
-|                                                            | barnpainting | [cpp][barnpainting.cpp] | 
+|                                                            | barnpainting | [cpp][barnpainting.cpp] [Java][barnpainting.java] | DP |
 |                                                            | hayfeast | [Java][hayfeast.java] |
 
 [sort.java]: 2017-2018/Open%202018/Gold/sort.cpp
@@ -165,6 +192,7 @@
 [spainting.java]: 2017-2018/Jan%202018/Gold/spainting.java
 [piepie.java]: 2017-2018/Dec%202017/Gold/piepie.java
 [barnpainting.cpp]: 2017-2018/Dec%202017/Gold/barnpainting.cpp
+[barnpainting.java]: 2017-2018/Dec%202017/Gold/barnpainting.java
 [hayfeast.java]: 2017-2018/Dec%202017/Gold/hayfeast.java
 
 
@@ -180,7 +208,7 @@
 |                                                            | cownav | [Java][cownav.java] | BFS |
 | [Dec 2016](http://usaco.org/index.php?page=dec16results)   | moocast | [cpp][moocast.cpp] [Java][moocast.java] |
 |                                                            | checklist | [Java][checklist.java] | 
-|                                                            | lasers | 
+|                                                            | lasers | [Java][lasers.java] | Shortest Path |
 
 
 [cownomics.cpp]: 2016-2017/Open%202017/Gold/cownomics.cpp
@@ -196,6 +224,7 @@
 [moocast.cpp]: 2016-2017/Dec%202016/Gold/moocast.cpp
 [moocast.java]: 2016-2017/Dec%202016/Gold/moocast.java
 [checklist.java]: 2016-2017/Dec%202016/Gold/checklist.java
+[lasers.java]: 2016-2017/Dec%202016/Gold/lasers.java
 
 
 | Contest                                                    | Problem | Implementation | Topic |
@@ -205,9 +234,9 @@
 |                                                            | 248 | [cpp][248.cpp] | DP |
 | [Feb 2016](http://usaco.org/index.php?page=feb16results)   | cbarn | [Java][cbarn.java] | 
 |                                                            | cbarn2 | [cpp][cbarn2.cpp] | DP |
-|                                                            | fencedin | 
+|                                                            | fencedin | [cpp][fencedin.cpp] | MST |
 | [Jan 2016](http://usaco.org/index.php?page=jan16results)   | angry | [cpp][angry.cpp] [Java][angry.java]
-|                                                            | radio | 
+|                                                            | radio | [Java][radio.java] | DP |
 |                                                            | lightsout | [cpp][lightsout.cpp] [Java][lightsout.java]
 | [Dec 2015](http://usaco.org/index.php?page=dec15results)   | cardgame | [cpp][cardgame.cpp] | greedy |
 |                                                            | feast | [Java][feast.java] | DP |
@@ -219,8 +248,10 @@
 [248.cpp]: 2015-2016/Open%202016/Gold/248.cpp
 [cbarn.java]: 2015-2016/Feb%202016/Gold/cbarn.java
 [cbarn2.cpp]: 2015-2016/Feb%202016/Gold/cbarn2.cpp
+[fencedin.cpp]: 2015-2016/Feb%202016/Gold/fencedin.cpp
 [angry.cpp]: 2015-2016/Jan%202016/Gold/angry.cpp
 [angry.java]: 2015-2016/Jan%202016/Gold/angry.java
+[radio.java]: 2015-2016/Jan%202016/Gold/radio.java
 [lightsout.cpp]: 2015-2016/Jan%202016/Gold/lightsout.cpp
 [lightsout.java]: 2015-2016/Jan%202016/Gold/lightsout.java
 [cardgame.cpp]: 2015-2016/Dec%202015/Gold/cardgame.cpp

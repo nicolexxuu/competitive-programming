@@ -2,6 +2,24 @@
 
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
+| [Open 2024](http://usaco.org/index.php?page=open24results) | |  |
+|                                                            |  |  |
+|                                                            |  |  |
+| [Feb 2024](http://usaco.org/index.php?page=feb24results)   |  |  |
+|                                                            |  |
+|                                                            |  |  |
+| [Jan 2024](http://usaco.org/index.php?page=jan24results)   |  |  |
+|                                                            | Potion Farming | [Java][potionfarming.java] |
+|                                                            |  | |
+| [Dec 2023](http://usaco.org/index.php?page=dec23results)   |  |  |
+|                                                            |  |
+|                                                            |  |  |
+
+[potionfarming.java]: 2023-2024/Jan%202024/Silver/potionfarming.java
+
+
+| Contest                                                    | Problem | Implementation | Topic |
+|------------------------------------------------------------|---------|----------------|-------|
 | [Open 2021](http://usaco.org/index.php?page=open21results) | Maze Tac Toe |  |
 |                                                            | Do You Know Your ABCs? |  |
 |                                                            | Acowdemia |  |
@@ -16,7 +34,7 @@
 |                                                            | Stuck in a Rut |  |
 
 [dancemooves.java]: 2020-2021/Jan%202021/Silver/dancemooves.java
-[downtagion.cpp]: 2020-2021/Dec%202020/Silver/cowntagion.cpp
+[cowntagion.cpp]: 2020-2021/Dec%202020/Silver/cowntagion.cpp
 
 
 | Contest                                                    | Problem | Implementation | Topic |

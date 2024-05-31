@@ -4,26 +4,26 @@
 | [Open 2024](http://usaco.org/index.php?page=open24results) |  |  |  | 
 |                                                            |  |  |  |
 |                                                            |  |  |  |
-| [Feb 2024](http://usaco.org/index.php?page=feb24results)   |  |  |  |
+| [Feb 2024](http://usaco.org/index.php?page=feb24results)   | Bessla Motors | [Java][besslamotors.java] | Shortest Path |
 |                                                            |  |  |  |
 |                                                            |  |  |  |
 | [Jan 2024](http://usaco.org/index.php?page=jan24results)   |  |  |  |
 |                                                            |  |  |  |
 |                                                            |  |  |  |
-| [Dec 2023](http://usaco.org/index.php?page=dec23results)   |  |  |  |
-|                                                            |  |  |  |
+| [Dec 2023](http://usaco.org/index.php?page=dec23results)   | Flight Routes |  |  |
+|                                                            | Minimum Longest Trip |  |  |
 |                                                            | Haybale Distribution | [Java][haybaledistribution.java] |  |
 
-
+[besslamotors.java]: 2023-2024/Feb%202024/Gold/besslamotors.java
 [haybaledistribution.java]: 2023-2024/Dec%202023/Gold/haybaledistribution.java
 
 
 
 | Contest                                                    | Problem | Implementation | Topic |
 |------------------------------------------------------------|---------|----------------|-------|
-| [Open 2023](http://usaco.org/index.php?page=open23results) |  |  |  | 
-|                                                            |  |  |  |
-|                                                            |  |  |  |
+| [Open 2023](http://usaco.org/index.php?page=open23results) | Custodial Cleanup |  |  | 
+|                                                            | Pareidolia |  |  |
+|                                                            | Tree Merging |  |  |
 | [Feb 2023](http://usaco.org/index.php?page=feb23results)   | Equal Sum Subarrays | [Java][subarrays.java] | |
 |                                                            | Fertilizing Pastures | [Java][fertilizingpastures.java] |  |
 |                                                            | Piling Papers |

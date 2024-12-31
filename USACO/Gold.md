@@ -5,16 +5,22 @@
 |                                                            |  |  |  |
 |                                                            |  |  |  |
 | [Feb 2024](http://usaco.org/index.php?page=feb24results)   | Bessla Motors | [Java][besslamotors.java] | Shortest Path |
-|                                                            |  |  |  |
-|                                                            |  |  |  |
+|                                                            | Milk Exchange | [cpp][milkexchange.cpp] [Java][milkexchange.java] | Monotonic Stack |
+|                                                            | Quantum Moochanics | [cpp][quantummoochanics.cpp] [Java][quantummoochanics.java] |  |
 | [Jan 2024](http://usaco.org/index.php?page=jan24results)   |  |  |  |
 |                                                            |  |  |  |
 |                                                            |  |  |  |
-| [Dec 2023](http://usaco.org/index.php?page=dec23results)   | Flight Routes |  |  |
-|                                                            | Minimum Longest Trip |  |  |
+| [Dec 2023](http://usaco.org/index.php?page=dec23results)   | Flight Routes | [Java][flightroutes.java] |  |
+|                                                            | Minimum Longest Trip | [cpp][minlongesttrip.cpp] |  |
 |                                                            | Haybale Distribution | [Java][haybaledistribution.java] |  |
 
 [besslamotors.java]: 2023-2024/Feb%202024/Gold/besslamotors.java
+[quantummoochanics.cpp]: 2023-2024/Feb%202024/Gold/quantummoochanics.cpp
+[quantummoochanics.java]: 2023-2024/Feb%202024/Gold/quantummoochanics.java
+[milkexchange.cpp]: 2023-2024/Feb%202024/Gold/milkexchange.cpp
+[milkexchange.java]: 2023-2024/Feb%202024/Gold/milkexchange.java
+[flightroutes.java]: 2023-2024/Dec%202023/Gold/flightroutes.java
+[minlongesttrip.cpp]: 2023-2024/Dec%202023/Gold/minlongesttrip.cpp
 [haybaledistribution.java]: 2023-2024/Dec%202023/Gold/haybaledistribution.java
 
 

@@ -7,7 +7,7 @@
 |                                                            |  |  |
 | [Feb 2024](http://usaco.org/index.php?page=feb24results)   |  |  |
 |                                                            |  |
-|                                                            |  |  |
+|                                                            | Moorbles | [Java][moorbles.java] | Prefix Sums |
 | [Jan 2024](http://usaco.org/index.php?page=jan24results)   |  |  |
 |                                                            | Potion Farming | [Java][potionfarming.java] |
 |                                                            |  | |
@@ -15,6 +15,7 @@
 |                                                            |  |
 |                                                            |  |  |
 
+[moorbles.java]: 2023-2024/Feb%202024/Silver/moorbles.java
 [potionfarming.java]: 2023-2024/Jan%202024/Silver/potionfarming.java
 
 
